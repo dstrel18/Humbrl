@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.MaterialComponents.Button.BottomStyle">
+        <item name="backgroundTint">@drawable/buttom_selector_click</item>
+        <item name="android:textColor">@drawable/selector_text_cheked</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="background">@drawable/buttom_selector_click</item>
+        <item name="iconTint">@color/bottomStyleText</item>
+
+
+    </style>
+</resources>

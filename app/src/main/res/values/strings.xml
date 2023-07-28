@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name" translatable="false">Humblr</string>
+    <string name="humblr">Welcome to Humblr</string>
+    <string name="some_id">Here are communities of all kinds of interests</string>
+    <string name="some">skip</string>
+    <string name="subhumblr">SubHumblr</string>
+    <string name="some_second">You can find new subs by interests and see the subs you subscribe to</string>
+    <string name="some_third">Favorites tab stores bookmarks with comments and subs. In your profile you will find information about yourself.</string>
+    <string name="ready">Ready</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="textSign">Find like-minded people with Humblr</string>
+    <string name="go">GO</string>
+    <string name="search">search</string>
+    <string name="new_text">New</string>
+    <string name="popular">Popular</string>
+    <string name="downland">Downland</string>
+    <string name="Answer">Answer</string>
+    <string name="show_all">Show all</string>
+    <string name="сomments">Comments</string>
+    <string name="message">Message</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="in_friends">In friends</string>
+    <string name="see_all">See all</string>
+    <string name="Subreddits">Subreddits</string>
+    <string name="saved">Saved</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="all">All</string>
+    <string name="friend_list">Friend list</string>
+    <string name="clear_saved">Clear saved</string>
+    <string name="go_out">Go out</string>
+    <string name="share_url" translatable="false">https://www.reddit.com%1$s</string>
+    <string name="share_text" translatable="false">text/plain</string>
+    <string name="friends_now">User added as friend</string>
+    <string name="removed_from_friends">User removed from friends</string>
+    <string name="savePost">Post saved</string>
+    <string name="saveComment">Comment saved</string>
+    <string name="yes_text">yes</string>
+    <string name="no_text">NO</string>
+    <string name="logout_text">Are you sure you want to logout? </string>
+    <string name="logout_message">All local data will be deleted.</string>
+    <string name="clear_text">Do you really want to clear everything?</string>
+    <string name="clear_message">All local data will be deleted.</string>
+
+
+    <plurals name="count_comment">
+        <item quantity="zero">%1$d comments</item>
+        <item quantity="one">%1$d comment</item>
+        <item quantity="two">%1$d comments</item>
+        <item quantity="few">%1$d commentary</item>
+        <item quantity="many">%1$d comments</item>
+        <item quantity="other">%1$d comments </item>
+    </plurals>
+
+
+</resources>

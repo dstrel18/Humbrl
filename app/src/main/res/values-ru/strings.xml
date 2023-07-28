@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="humblr">Добро пожаловать в Humblr</string>
+    <string name="some_id">Здесь собраны сообщества по всевозможным интересам</string>
+    <string name="some">пропустить</string>
+    <string name="subhumblr">SubHumblr</string>
+    <string name="some_second">Ты можешь найти новые сабы по интересам и посмотреть сабы, на которые подписан</string>
+    <string name="some_third">Вкладка избранное хранит закладки с комментариями и сабами. В профиле ты найдёшь информацию о себе.</string>
+    <string name="ready">Готово</string>
+    <string name="next">Вперед</string>
+    <string name="back">Назад</string>
+    <string name="textSign">Найди единомышленников с Humblr</string>
+    <string name="go">ВХОД</string>
+    <string name="search">поиск</string>
+    <string name="new_text">Новое</string>
+    <string name="popular">Популярное</string>
+    <string name="downland">Скачать</string>
+    <string name="Answer">Ответить</string>
+    <string name="show_all">Показать все</string>
+    <string name="сomments">Комментарии</string>
+    <string name="message">Написать</string>
+    <string name="subscribe">Подписаться</string>
+    <string name="in_friends">В друзьях</string>
+    <string name="see_all">Смотреть все</string>
+    <string name="Subreddits">Сабреддиты</string>
+    <string name="saved">Сохраненные</string>
+    <string name="all">Все</string>
+    <string name="friend_list">Список друзей</string>
+    <string name="clear_saved">Очистить сохраненные</string>
+    <string name="go_out">Выйти</string>
+    <string name="share">Поделиться</string>
+    <string name="save">Сохранить</string>
+    <string name="friends_now">Пользовотель добавлен в друзья</string>
+    <string name="removed_from_friends">Пользовотель удален из друзья</string>
+    <string name="savePost">Пост сохранен</string>
+    <string name="saveComment">Комментарий сохранен</string>
+    <string name="yes_text">Да</string>
+    <string name="no_text">Нет</string>
+    <string name="logout_text">Вы действительно хотите выйти?</string>
+    <string name="logout_message">Все сохраненные данные будут удалены.</string>
+    <string name="clear_text">Вы действительно хотите все очистить?</string>
+    <string name="clear_message">Все сохраненные данные будут удалены.</string>
+
+    <plurals name="count_comment" tools:ignore="UnusedQuantity">
+
+        <item quantity="zero">%1$d комментарий</item>
+        <item quantity="one">%1$d комментарий</item>
+        <item quantity="two">%1$d комментария</item>
+        <item quantity="few">%1$d комментария</item>
+        <item quantity="many">%1$d комментариев</item>
+        <item quantity="other">%1$d комментариев </item>
+
+
+    </plurals>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/startFragment">
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.example.humblr.onboarding.OnBoardingFragment"
+        android:label="OnBoardingFragment">
+        <action
+            android:id="@+id/action_onBoardingFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@id/onBoardingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.humblr.favorites.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_postInfoFragment"
+            app:destination="@id/postInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.humblr.profile.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user">
+        <action
+            android:id="@+id/action_userFragment_to_friendsFragment"
+            app:destination="@id/friendsFragment" />
+        <action
+            android:id="@+id/action_userFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ribbonFragment"
+        android:name="com.example.humblr.subreddit.RibbonFragment"
+        android:label="fragment_ribbon"
+        tools:layout="@layout/fragment_ribbon">
+        <action
+            android:id="@+id/action_ribbonFragment_to_subredditInfoFragment"
+            app:destination="@id/subredditInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.humblr.signIn.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in">
+        <action
+            android:id="@+id/action_signInFragment_to_ribbonFragment"
+            app:destination="@id/ribbonFragment"
+            app:popUpTo="@id/signInFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.humblr.presentation.StartFragment"
+        android:label="fragment_start2"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_startFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_startFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_startFragment_to_ribbonFragment"
+            app:destination="@id/ribbonFragment"
+            app:popUpTo="@id/startFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/subredditInfoFragment"
+        android:name="com.example.humblr.subreddit.SubredditInfoFragment"
+        android:label="SubredditInfoFragment">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_subredditInfoFragment_to_postInfoFragment"
+            app:destination="@id/postInfoFragment" />
+        <action
+            android:id="@+id/action_subredditInfoFragment_to_userProfilFragment"
+            app:destination="@id/userProfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postInfoFragment"
+        android:name="com.example.humblr.subreddit.PostInfoFragment"
+        android:label="PostInfoFragment">
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_postInfoFragment_to_subredditInfoFragment"
+            app:destination="@id/subredditInfoFragment" />
+        <action
+            android:id="@+id/action_postInfoFragment_to_userProfilFragment"
+            app:destination="@id/userProfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userProfilFragment"
+        android:name="com.example.humblr.profile.UserProfileFragment"
+        android:label="UserProfilFragment">
+        <argument
+            android:name="user_name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_userProfilFragment_to_postInfoFragment"
+            app:destination="@id/postInfoFragment" />
+        <action
+            android:id="@+id/action_userProfilFragment_to_subredditInfoFragment"
+            app:destination="@id/subredditInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.example.humblr.profile.FriendsFragment"
+        android:label="FriendsFragment">
+        <action
+            android:id="@+id/action_friendsFragment_to_userProfilFragment"
+            app:destination="@id/userProfilFragment" />
+    </fragment>
+</navigation>
